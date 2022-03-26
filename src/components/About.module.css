@@ -1,0 +1,12 @@
+.about {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.about > h2 {
+  text-align: center;
+}
+
+.about > p {
+  text-align: center;
+}

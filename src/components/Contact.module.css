@@ -1,0 +1,10 @@
+.contact {
+  padding: 1rem;
+  /* background-color: #4b954f; */
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.contact > h3 {
+  font-size: 2rem;
+}

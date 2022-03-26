@@ -1,0 +1,16 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+  padding: 1rem 0px 3rem;
+}
+
+@media screen and (max-width: 410px) {
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+}

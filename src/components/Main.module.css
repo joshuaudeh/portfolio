@@ -1,0 +1,55 @@
+.main {
+  background-image: linear-gradient(to right, #00aaff, #00ff6c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+}
+
+.main__Content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__Content > h1 {
+  font-size: 2.5rem;
+  margin: 10px;
+}
+
+.main__Content > button,
+p {
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.main__Content > button:hover {
+  background-color: transparent;
+  color: var(--white);
+  outline: 1px solid var(--white);
+}
+
+/* global style button */
+
+button {
+  padding: 0.7rem;
+  cursor: pointer;
+  border: none;
+  outline: 1px solid var(--white);
+  border-radius: 2px;
+  margin-top: 1rem;
+}
+
+.main__Icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.main__Icon {
+  font-size: 3rem !important;
+  cursor: pointer;
+}

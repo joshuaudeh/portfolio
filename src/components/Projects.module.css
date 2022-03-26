@@ -1,0 +1,32 @@
+.projects {
+  padding: 2rem 0px;
+  margin: 0px 1rem;
+}
+
+.projects > h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 941px) {
+  .project {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .project {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+}

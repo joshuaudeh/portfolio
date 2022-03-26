@@ -1,0 +1,10 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill > img {
+  height: 60px;
+}

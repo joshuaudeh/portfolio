@@ -1,0 +1,28 @@
+.project {
+  text-align: center;
+}
+
+.project > p {
+  margin: 10px;
+}
+
+.project > img {
+  height: 250px;
+  max-width: 100%;
+}
+
+.project > a {
+  margin: 5px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
+}
+
+.project > a:hover {
+  background-color: transparent;
+  color: var(--black);
+  border: 1px solid var(--black);
+}
