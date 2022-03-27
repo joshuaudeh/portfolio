@@ -7,7 +7,7 @@ function Movie({ name, image, link }) {
       <img src={image} alt={name} />
       <p>{name}</p>
       <a
-        href="https://github.com/joshuaudeh/movie-app"
+        href="https://github.com/joshuaudeh/movie-app/tree/master/src"
         rel="noreferrer"
         target="_blank"
       >

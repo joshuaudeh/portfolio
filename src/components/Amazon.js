@@ -6,7 +6,7 @@ function Amazon({ name, image, link }) {
       <img src={image} alt={name} />
       <p>{name}</p>
       <a
-        href="https://github.com/joshuaudeh/amazon-clone"
+        href="https://github.com/joshuaudeh/amazon-clone/tree/master/src"
         rel="noreferrer"
         target="_blank"
       >

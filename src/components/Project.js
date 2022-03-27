@@ -7,7 +7,7 @@ function Project({ name, image, link }) {
       <img src={image} alt={name} />
       <p>{name}</p>
       <a
-        href="https://github.com/joshuaudeh/hulu-clone"
+        href="https://github.com/joshuaudeh/hulu-clone/tree/master/src"
         rel="noreferrer"
         target="_blank"
       >
