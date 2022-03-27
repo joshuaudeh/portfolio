@@ -7,7 +7,6 @@ function Main() {
         <div className={styles.main__Content}>
           <h1>Joshua Udeh</h1>
           <p>Front End Developer</p>
-          <button>MY RESUME</button>
           <div className={styles.main__Icons}>
             {/* <LinkedInIcon className={styles.main__Icon} /> */}
           </div>
