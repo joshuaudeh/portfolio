@@ -31,7 +31,7 @@
 }
 
 .navbar .nav__menu > li > a:hover {
-  border-bottom: 2px solid var(--black);
+  border-bottom: 2px solid var(--white);
   cursor: pointer;
 }
 
